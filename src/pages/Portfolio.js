@@ -8,6 +8,7 @@ import PasswordGeneratorImg from "../assets/images/PasswordGenerator.PNG";
 import CodeQuizImg from "../assets/images/CodeQuiz.PNG"
 import DayPlannerImg from "../assets/images/DayPlanner.PNG"
 import WeatherDashboardImg from "../assets/images/WeatherDashboard.PNG"
+import Covid19TrackerImg from "../assets/images/Covid19_Tracker_Img.PNG"
 
 function Portfolio () {
   return (
@@ -50,6 +51,12 @@ function Portfolio () {
           image={WeatherDashboardImg}
           deployed="https://rfilkin.github.io/06-WeatherDashboard/"
           github="https://github.com/rfilkin/06-WeatherDashboard"
+        />
+        <Project
+          name="Covid-19 Tracker"
+          image={Covid19TrackerImg}
+          deployed="http://plague.site/"
+          github="https://github.com/yankidank/covid-19-tracker"
         />
       </Row>
 
