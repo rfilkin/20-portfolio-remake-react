@@ -1,0 +1,26 @@
+img{
+  width:100%;
+  max-width:100%;
+  height:auto;
+}
+
+.cardOverlay{
+  background-color: #4aaaa5;
+  color: white;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  text-align: center;
+  position: relative;
+  bottom: 0px;
+  width:auto;
+  padding:5px;
+}
+
+.card{
+  width: 50%;
+  /* background: red !important; */
+  margin: 0 auto;
+}
+.container .row .card{
+  display: block;
+  justify-content: center;
+}

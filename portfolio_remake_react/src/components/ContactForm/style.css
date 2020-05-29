@@ -1,0 +1,19 @@
+input[type=text], textarea{
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.submitBtn{
+  border: none;
+  background-color: #4aaaa5;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

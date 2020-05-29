@@ -1,0 +1,43 @@
+.card{
+  width: 50%;
+  /* background: red !important; */
+  margin: 0 auto;
+}
+.container .row .card{
+  display: block;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 640px) {
+  /* 648px or smaller */
+  .card{
+      width: 80%;
+      /* background: red !important; */
+      margin: 0 auto;
+  }
+  .container .row .card{
+      display: block;
+      justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  /*640 - 768px*/
+  .card{
+      width: 40%;
+      /* background: blue !important; */
+      margin: 0 auto;
+      display: card;
+  }
+}
+
+@media only screen and (min-width: 980px){
+  /*768 - 980px or larger*/
+  .card{
+      width: 40%;
+      /* background: green !important; */
+      display: card;
+      margin: 0 auto;
+  }
+}
