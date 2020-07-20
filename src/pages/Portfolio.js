@@ -63,7 +63,7 @@ function Portfolio () {
 
       <Row>
         <Project
-          name="Beer Book Screenshot"
+          name="Beer Book collection app"
           image={BeerBookImg}
           deployed="https://floating-tor-57469.herokuapp.com/"
           github="https://github.com/sboulom/finalProject"
