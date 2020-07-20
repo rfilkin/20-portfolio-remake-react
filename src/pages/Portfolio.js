@@ -9,6 +9,7 @@ import CodeQuizImg from "../assets/images/CodeQuiz.PNG"
 import DayPlannerImg from "../assets/images/DayPlanner.PNG"
 import WeatherDashboardImg from "../assets/images/WeatherDashboard.PNG"
 import Covid19TrackerImg from "../assets/images/Covid19_Tracker_Img.PNG"
+import BeerBookImg from "../assets/images/Beer_Book_Screenshot.PNG"
 
 function Portfolio () {
   return (
@@ -57,6 +58,15 @@ function Portfolio () {
           image={Covid19TrackerImg}
           deployed="http://plague.site/"
           github="https://github.com/yankidank/covid-19-tracker"
+        />
+      </Row>
+
+      <Row>
+        <Project
+          name="Beer Book Screenshot"
+          image={BeerBookImg}
+          deployed="https://floating-tor-57469.herokuapp.com/"
+          github="https://github.com/sboulom/finalProject"
         />
       </Row>
 
